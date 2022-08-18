@@ -1,0 +1,93 @@
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.box:hover{
+    background-color: brown;
+    margin-left: 500px;
+    cursor: pointer;
+    transition: all 4s ease-in-out;
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #232323;
+}
+.container{
+    width: 71%;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+    width:19%;
+}
+.logo h1{
+    color: #EEEEEE;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.logo span{
+    color: #F33F3F;
+}
+.navigation{
+    display: inline-block;
+    width: 77%;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: inline-block;
+    text-decoration: none;  
+    color: #EEEEEE;
+    padding: 25px 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    position: relative;
+}
+.navigation ul{
+    text-align: right;
+}
+.navigation a .line{
+    position: absolute;
+    display: inline-block;
+    background-color: #F33F3F;
+    height: 3.5px;
+    width: 99%;
+    top: 61%;
+    left: 0%;
+    opacity: 0;
+}
+.navigation a:hover .line{
+    top: 95%;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+}
+.navigation li.active .line{
+   opacity: 1;
+   top: 95%;
+}
+#main{
+    background-image: url(../img/intro.jpg);
+}
+.intro .container{
+    text-align: center;
+    padding: 280px 0;
+}
+.intro .container h3{
+    color: #F33F3F;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.intro h2{
+    color: #EEEEEE;
+    font-size: 45px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+
