@@ -90,4 +90,7 @@
     word-spacing: 5px;
     text-transform: uppercase;
 }
-
+.line{
+    width: 200px;
+    height: 200px;
+}
